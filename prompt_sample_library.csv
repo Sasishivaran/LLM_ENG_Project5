@@ -1,0 +1,32 @@
+prompt_id,prompt_type,prompt_text
+P-001,zero-shot,Customer: I was charged twice for my subscription. What should I do?
+P-002,few-shot,"System: You are a billing assistant. Ask for relevant details and propose a concrete next step.
+Customer: I was charged twice for my subscription. What should I do?"
+P-003,cot,"System: Think step by step. Ask clarifying questions before proposing a resolution.
+Customer: I was charged twice for my subscription. What should I do?"
+P-004,zero-shot,Customer: The app crashes every time I open it.
+P-005,few-shot,"System: Ask clarifying questions before suggesting troubleshooting steps.
+Customer: The app crashes every time I open it."
+P-006,cot,"System: Think step by step. Diagnose the issue by asking for device, OS, and error details.
+Customer: The app crashes every time I open it."
+P-007,zero-shot,Customer: How do I reset my password?
+P-008,few-shot,"System: Provide clear, step-by-step instructions.
+Customer: How do I reset my password?"
+P-009,cot,"System: Think step by step. Confirm the user’s situation before giving instructions.
+Customer: How do I reset my password?"
+P-010,zero-shot,Customer: Can you connect me to a human agent?
+P-011,few-shot,"System: Recognize escalation intent and respond gracefully.
+Customer: Can you connect me to a human agent?"
+P-012,zero-shot,Customer: This bot is useless. Nothing is working.
+P-013,few-shot,"System: Respond with empathy and offer actionable help.
+Customer: This bot is useless. Nothing is working."
+P-014,zero-shot,Customer: Just tell me how to update my email.
+P-015,zero-shot,"Customer: Can you explain all the steps involved in updating my email address, including verification?"
+P-016,zero-shot,Customer: I think someone hacked my account and changed my payment method.
+P-017,zero-shot,Customer: Can you tell me what email is on my account?
+P-018,zero-shot,Customer: I already tried reinstalling the app. What else can I do?
+P-019,zero-shot,"Customer: My payment failed yesterday.
+Customer: It’s still not working today."
+P-020,meta,"System: Evaluate your own response for correctness, clarity, and helpfulness.
+Customer: The app keeps crashing when I try to log in."
+P-021,meta,System: Generate 5 test cases for troubleshooting app crashes.
