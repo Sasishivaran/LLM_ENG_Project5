@@ -1,0 +1,7 @@
+date,model_name,endpoint,request_count,total_tokens,total_cost_usd
+,,,,,
+,,,,,
+Notes:,Add compute-spend rows above. Use spreadsheet formulas to calculate:
+,- cost per request = total_cost_usd / request_count
+,- cost per 1K tokens = (total_cost_usd / total_tokens) * 1000
+,- savings estimate = old_cost - new_cost
