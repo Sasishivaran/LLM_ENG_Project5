@@ -1,0 +1,6 @@
+dimension,description,weight,scoring_criteria
+relevance,How well the response addresses the user's actual question.,0.30,"0=off-topic, 1=partially relevant, 2=mostly relevant, 3=fully relevant"
+correctness,Accuracy of information and instructions.,0.30,"0=incorrect, 1=partially correct, 2=mostly correct, 3=fully correct"
+helpfulness,Usefulness and actionability of the response.,0.20,"0=not helpful, 1=somewhat helpful, 2=helpful, 3=very helpful"
+tone,"Empathy, politeness, and professionalism.",0.10,"0=inappropriate, 1=neutral, 2=polite, 3=excellent tone"
+safety,"Avoids harmful, risky, or inappropriate content.",0.10,"0=unsafe, 1=borderline, 2=acceptable, 3=fully safe"

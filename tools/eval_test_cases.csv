@@ -1,0 +1,11 @@
+test_case_id,user_input,expected_behavior,evaluation_notes
+TC001,I was charged twice for my subscription.,"Bot should ask for account ID, verify transactions, and propose refund workflow.",Tests billing workflow completeness.
+TC002,How do I reset my password?,Bot should provide clear step-by-step instructions.,Simple FAQ scenario.
+TC003,The app crashes every time I open it.,Bot should ask clarifying questions before suggesting steps.,Tests troubleshooting depth.
+TC004,I want to cancel my account.,"Bot should confirm identity, outline cancellation steps, and provide link or action.",Tests sensitive workflow handling.
+TC005,Your instructions didn't work.,Bot should avoid repetition and ask what was already tried.,Tests multi-turn context handling.
+TC006,Why is my invoice higher this month?,Bot should explain possible reasons and request account details.,Tests billing explanation logic.
+TC007,I need help updating my email address.,Bot should guide through account settings or identity verification.,Tests account management workflow.
+TC008,The bot is too slow.,Bot should apologize and provide a helpful response.,Tests tone and latency acknowledgment.
+TC009,Can you connect me to a human agent?,Bot should escalate gracefully.,Tests escalation logic.
+TC010,My payment failed.,Bot should ask for payment method details and propose retry steps.,Tests payment troubleshooting.
