@@ -1,0 +1,11 @@
+Chatbot Test Environment Notes
+
+For the purposes of this project, the chatbot test environment is represented conceptually.
+Assume the following:
+- The chatbot is accessible via a web-based interface or API.
+- Test accounts can be used without impacting real customers.
+- Rate limits are low but sufficient for controlled experiments.
+- Logs from the test environment are similar in structure to `chat_logs_sample.csv`.
+
+In a real deployment, access details (URLs, credentials, rate limits, and environments)
+would be documented here.

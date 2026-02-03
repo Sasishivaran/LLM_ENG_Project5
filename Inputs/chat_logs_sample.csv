@@ -1,0 +1,14 @@
+timestamp,conversation_id,turn_id,speaker,message,outcome_label
+2026-02-02T10:00:00Z,conv_001,1,user,"Hi, I need help with my billing.",escalated
+2026-02-02T10:00:15Z,conv_001,2,bot,"Sure, can you provide your account ID?",escalated
+2026-02-02T10:00:30Z,conv_001,3,user,It's 12345.,escalated
+2026-02-02T10:00:45Z,conv_001,4,bot,I see an overdue invoice. Would you like to pay it now?,escalated
+2026-02-02T10:01:00Z,conv_001,5,user,"Yes, please.",escalated
+2026-02-02T10:01:15Z,conv_001,6,bot,"I’m sorry, I’m unable to process payments right now. Please contact support.",escalated
+2026-02-02T10:01:30Z,conv_002,1,user,How do I reset my password?,resolved
+2026-02-02T10:01:45Z,conv_002,2,bot,You can reset your password from the account settings page under 'Security'.,resolved
+2026-02-02T10:02:00Z,conv_002,3,user,"Thanks, that worked.",resolved
+2026-02-02T10:02:15Z,conv_003,1,user,The app keeps crashing when I open it.,failed
+2026-02-02T10:02:30Z,conv_003,2,bot,Have you tried reinstalling the app?,failed
+2026-02-02T10:02:45Z,conv_003,3,user,"Yes, still crashing.",failed
+2026-02-02T10:03:00Z,conv_003,4,bot,Please try reinstalling again.,failed

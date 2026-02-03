@@ -1,0 +1,9 @@
+prompt_id,prompt_text,model_version,response_text,eval_label
+p001,Customer: I was charged twice for my subscription. What should I do?,gpt-4.1-zero-shot,You may have been charged twice due to a processing error. Please contact support.,partially_helpful
+p001,"Customer: I was charged twice for my subscription. What should I do?
+
+System: You are a billing assistant. Ask for relevant details and propose a concrete next step.",gpt-4.1-few-shot,I’m sorry about the double charge. Please provide your account ID and the last 4 digits of your payment method so I can review the transactions and initiate a refund if applicable.,helpful
+p002,Customer: The app crashes every time I open it.,gpt-4.1-zero-shot,Try reinstalling the app.,unhelpful
+p002,"Customer: The app crashes every time I open it.
+
+System: Think step by step and ask clarifying questions before suggesting actions.",gpt-4.1-cot,"I’m sorry you’re experiencing crashes. First, can you tell me which device and OS version you’re using, and whether you see any error message? Based on that, I can suggest targeted troubleshooting steps.",helpful

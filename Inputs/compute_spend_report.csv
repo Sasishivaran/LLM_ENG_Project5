@@ -1,0 +1,7 @@
+date,model_name,endpoint,request_count,total_tokens,total_cost_usd
+2026-02-01,gpt-4.1,chat-completions,12000,4800000,960.0
+2026-02-01,gpt-4.1-mini,chat-completions,8000,1600000,80.0
+2026-02-01,embedding-3-large,embeddings,15000,750000,45.0
+2026-02-02,gpt-4.1,chat-completions,14000,5600000,1120.0
+2026-02-02,gpt-4.1-mini,chat-completions,9000,1800000,90.0
+2026-02-02,embedding-3-large,embeddings,16000,800000,48.0

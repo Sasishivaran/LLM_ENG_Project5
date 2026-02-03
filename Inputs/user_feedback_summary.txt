@@ -1,0 +1,14 @@
+User Feedback Summary
+
+Overall sentiment: Mixed to negative.
+
+Key themes:
+- The chatbot often fails to complete billing-related requests and escalates to human agents.
+- Users report that answers about troubleshooting are generic and repetitive.
+- Some users are satisfied with simple FAQ-style questions (e.g., password reset).
+- Response times are sometimes slow during peak hours.
+
+Example quotes:
+- "It keeps telling me to contact support instead of fixing my billing issue."
+- "The bot just repeats the same steps even after I say I already tried them."
+- "For basic questions it's fine, but anything more complex and it gets stuck."
