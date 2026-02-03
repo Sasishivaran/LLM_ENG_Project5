@@ -1,7 +1,7 @@
 # Prompt Sample Library
 Customer Support Chatbot
 
-This library provides standardized prompts for evaluating different prompting strategies and model behaviors.
+This library provides standardized prompts for evaluating different prompting strategies and model behaviors.  
 It includes Zero‑Shot, Few‑Shot, and Chain‑of‑Thought variants for core support scenarios.
 
 ---
@@ -99,7 +99,7 @@ Customer: Can you tell me what email is on my account?
 Customer: I already tried reinstalling the app. What else can I do?
 
 ### P‑019 — Multi‑Turn Context Test
-Customer: My payment failed yesterday.
+Customer: My payment failed yesterday.  
 Customer: It’s still not working today.
 
 ---
@@ -112,3 +112,4 @@ Customer: The app keeps crashing when I try to log in.
 
 ### P‑021 — Ask the Model to Generate Test Cases
 System: Generate 5 test cases for troubleshooting app crashes.
+
